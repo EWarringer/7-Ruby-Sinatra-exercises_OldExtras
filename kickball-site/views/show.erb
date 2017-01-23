@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+  </head>
+
+  <body>
+    <h1>
+      <%= team %>
+    </h1>
+    <ul>
+      <% team_roster.each do |position, name| %>
+        <li><%= position %>: <%= name %></li>
+      <% end %>
+    </ul>
+
+    <a href="/kickball_teams/names">Back to teams</a>
+  </body>
+</html>

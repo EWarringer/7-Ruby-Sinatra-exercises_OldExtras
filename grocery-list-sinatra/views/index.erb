@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="/styles.css"> -->
+  </head>
+  <body>
+
+      <h2>GROCERY LIST</h2>
+
+    <ul>
+      <% groceries.each do |grocery| %>
+        <li><a href="/groceries/<%= grocery[0]%>"><%= grocery[0] %></a></li>
+      <% end %>
+    </ul>
+
+    <form action="/groceries" method="post">
+
+        <label for="item">New Grocery Item:</label>
+        <input type="text" id="item" name="item" required>
+
+        <label for="description">Quantity:</label>
+        <input type="text" id="description" name="quantity" required>
+
+        <input type="submit", value="Add Grocery">
+    </form>
+  </body>
+</html>

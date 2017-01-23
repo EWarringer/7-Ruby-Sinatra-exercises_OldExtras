@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h2>PLACES TRAVELED</h2>
+    <h3>My Name</h3>
+
+    <ul>
+      <% places_three.each do |place| %>
+        <li><%= place %></li>
+      <% end %>
+    </ul>
+
+    <form action="/places_five" method="post">
+      <label for="places_seven">New place:</label>
+      <input type="text" id="places_seven" name="places_six">
+
+      <input type="submit">
+    </form>
+
+  </body>
+</html>

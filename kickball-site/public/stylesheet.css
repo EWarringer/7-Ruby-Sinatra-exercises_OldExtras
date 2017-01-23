@@ -1,0 +1,42 @@
+body {
+  /* Use a "Matrix"-style color scheme. */
+  background-color: #89CC9D;
+  color: #363636;
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 1.4em;
+  margin-left: 2em;
+}
+
+body a:link {
+	color: #363636;
+	text-decoration: none;
+}
+
+body a:visited {
+	color: #363636;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+h1 {
+  font-family: Rockwell, 'Courier Bold', Courier;
+  letter-spacing: 3px;
+  font-size: 2.25em;
+
+}
+ul {
+  /* Wrap the list in a green box. */
+  width: auto;
+  border: none;
+}
+
+li {
+  /* Add a bit more spacing between list items. */
+  margin-left: 20px;
+  padding-bottom: 15px;
+  list-style-type: square;
+}

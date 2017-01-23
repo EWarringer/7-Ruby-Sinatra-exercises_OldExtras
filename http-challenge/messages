@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messages</title>
+  <link rel="stylesheet" type="text/css" href="/pure.css">
+  <link rel="stylesheet" type="text/css" href="/main.css">
+</head>
+
+<body>
+  <div class="header">
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+
+    <div class="pure-u-3-4">
+      <div class="home-menu pure-menu pure-menu-horizontal">
+        <a class="pure-menu-heading" href="/">Messages</a>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item"><a href="/messages" class="pure-menu-link">View Messages</a></li>
+          <li class="pure-menu-item"><a href="/messages/new" class="pure-menu-link">New Message</a></li>
+          <li class="pure-menu-item"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pure-u-1-8"></div>
+  </div>
+</div>
+
+
+  <div class="pure-g">
+    <div class="pure-u-1-8"></div>
+
+    <div class="pure-u-3-4">
+      <h1>Messages</h1>
+
+<div class="pure-g">
+  <div class="pure-u-1-4 created_at">
+    <strong>Created At</strong>
+  </div>
+
+  <div class="pure-u-1-2 content">
+    <strong>Content</strong>
+  </div>
+</div>
+
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 16:02:04
+    </div>
+    <div class="pure-u-1-2 content">
+      wfwer
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 16:00:17
+    </div>
+    <div class="pure-u-1-2 content">
+      testing404
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:59:39
+    </div>
+    <div class="pure-u-1-2 content">
+      hi
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:58:24
+    </div>
+    <div class="pure-u-1-2 content">
+      hi
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:58:08
+    </div>
+    <div class="pure-u-1-2 content">
+      halp
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:53:52
+    </div>
+    <div class="pure-u-1-2 content">
+      hello
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:53:22
+    </div>
+    <div class="pure-u-1-2 content">
+      hello!
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:49:09
+    </div>
+    <div class="pure-u-1-2 content">
+      New message
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:41:02
+    </div>
+    <div class="pure-u-1-2 content">
+      Team Picklejar
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-4 created_at">
+      2015-08-11 15:40:17
+    </div>
+    <div class="pure-u-1-2 content">
+      beep beep boop
+    </div>
+
+  </div>
+
+    </div>
+
+    <div class="pure-u-1-8"></div>
+  </div>
+</body>
+</html>

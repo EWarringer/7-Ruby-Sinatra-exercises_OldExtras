@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kickball Positions</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+  </head>
+
+  <body>
+    <h1>Kickball Positions</h1>
+
+    <ul>
+      <% team_positions.each do |pos| %>
+        <li><a href="/kickball_teams/<%= pos %>"><%= pos %></a></li>
+      <% end %>
+    </ul>
+
+    <a href="/kickball_teams/names">Show By Team Names</a>
+  </body>
+</html>
